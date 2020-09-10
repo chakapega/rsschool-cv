@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.main-container {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width: 1024px;
+  min-width: 760px;
+}
+
+.avatar-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.avatar {
+  height: 180px;
+}
+
+.info-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 720px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol > li > ul {
+  margin: 5px 0;
+}
+
+ul > li > ul {
+  margin: 5px 0;
+}
